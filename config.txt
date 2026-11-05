@@ -1,2 +1,2 @@
-# SDRTrunk event log folder. Edit this path for your Linux installation.
-log_dir = ~/SDRTrunk/event_logs
+# SDRTrunk event log folder. Edit this path for your Windows installation.
+log_dir = C:\Users\dougl\SDRTrunk\event_logs

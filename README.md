@@ -30,7 +30,7 @@ This browser console reads SDRTrunk decoded-message and call-event logs. It uses
 
 ## Ports and grid
 
-The main dashboard listens on port **5100** and binds to all network interfaces, so another device on your local network can open it using the computer's LAN address. The Grid View listens on **127.0.0.1:5101** and is available on the Linux computer running the console.
+The main dashboard and Grid View listen on ports **5100** and **5101** and bind to all network interfaces. The dashboard's Grid View link uses the same computer name or LAN address you used to open the main dashboard. If a firewall blocks the grid page from another device, allow inbound TCP port 5101 on your private network.
 
 The Grid View starts with the six talkgroups shown in the supplied layout and adds other talkgroups when SDRTrunk logs activity for them. Green indicates a message logged in the last 12 seconds. This console reads log data and does not provide audio playback.
 

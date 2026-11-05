@@ -47,7 +47,7 @@ def configured_log_dir() -> Path:
 LOG_DIR = configured_log_dir()
 HOST = os.environ.get("CONSOLE_HOST", "0.0.0.0")
 PORT = int(os.environ.get("CONSOLE_PORT", "5100"))
-GRID_HOST = "127.0.0.1"
+GRID_HOST = os.environ.get("GRID_HOST", HOST)
 GRID_PORT = 5101
 GRID_DEFAULT_TALKGROUPS = ("58214", "58341", "58337", "58211", "58014", "58015")
 POLL_STALE_SECONDS = 25
@@ -385,7 +385,9 @@ def main() -> None:
     grid_server = ThreadingHTTPServer((GRID_HOST, GRID_PORT), GridHandler)
     grid_thread = threading.Thread(target=grid_server.serve_forever, kwargs={"poll_interval": 0.5}, daemon=True)
     grid_thread.start()
-    print(f"Grid View: http://127.0.0.1:{GRID_PORT}")
+    print(f"Grid View on this computer: http://127.0.0.1:{GRID_PORT}")
+    for ip in local_addresses():
+        print(f"Grid View on your local network: http://{ip}:{GRID_PORT}")
     print("Press Ctrl+C to stop.")
     server = ThreadingHTTPServer((HOST, PORT), ConsoleHandler)
     try:

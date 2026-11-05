@@ -1,0 +1,301 @@
+DEC	HEX	Alpha	Description	Tag	Mode
+51506	c932	POST06	Post 6 (Wapakoneta) Dispatch	Law Dispatch	D
+51555	c963	PIQUA	Post 55 (Piqua) District 5 HQ / post patrol	Law Dispatch	D
+51557	c965	POST57	Post 57 (Dayton) Dispatch	Law Dispatch	D
+51580	c97c	POST80	Post 80 (Marysville) Dispatch	Law Dispatch	D
+51597	c98d	P06TAC	Post 6 (Wapakoneta) Tac	Law Tac	DE
+51601	c991	P12TAC	Post 12 (Springfield) Tac	Law Tac	DE
+51614	c99e	DAYTAC3	Post 57 (Dayton) Tac 3	Law Tac	D
+51629	c9ad	P55TAC	Post 55 (Piqua) Tac	Law Tac	DE
+51644	c9bc	P80TAC	Post 80 (Marysville) Tac	Law Tac	DE
+51717	ca05	D5-EVT1	Piqua Event 1	Law Tac	D
+51723	ca0b	DAYTON1	Post 57 (Dayton) 1	Law Dispatch	D
+51730	ca12	DAYTON2	Post 57 (Dayton) 2	Law Dispatch	D
+51737	ca19	DAYTAC1	Post 57 (Dayton) Tac 1	Law Tac	DE
+51738	ca1a	DAYTON3	Post 57 (Dayton) 3	Law Dispatch	D
+51741	ca1d	DAYTAC2	Post 57 (Dayton) Tac 2	Law Tac	D
+51745	ca21	SPRNGFLD	Post 12 (Springfield) Dispatch	Law Dispatch	D
+51810	ca62	PIQ-AV 1	Post 55 (Piqua) Aviation 1	Law Tac	D
+
+DEC	HEX	Alpha	Description	Tag	Mode
+54088	d348	R3 USAR	Urban Search and Rescue Region 3	Interop	D
+54589	d53d	XSO-57	Statewide Interop	Interop	D
+58025	e2a9	57RDC HELP	Regional Dispatch Center Helpdesk	Interop	D
+58061	e2cd	57 CW 1	Countywide 1	Interop	D
+58062	e2ce	57 CW 2	Countywide 2	Interop	D
+58063	e2cf	57 CW 3	Countywide 3	Interop	D
+58064	e2d0	57 CW 4	Countywide 4	Interop	D
+58065	e2d1	57 CW 5	Countywide 5	Interop	D
+58066	e2d2	57 LE 1	Law Enforcement 1	Interop	D
+58067	e2d3	57 LE 2	Law Enforcement 2	Interop	D
+58068	e2d4	57 LE 3	Law Enforcement 3	Interop	D
+58069	e2d5	57 LE 4	Law Enforcement 4	Interop	D
+58070	e2d6	57 LE 5	Law Enforcement 5	Interop	D
+58073	e2d9	57 ARC 1	Animal Control 1	Emergency Ops	D
+58074	e2da	57 ARC 2	Animal Control 2	Emergency Ops	D
+58112	e300	57MCOEM	Montgomery County Office of Emergency Management	Emergency Ops	D
+58473	e469	57ED1	Mass Casualty Incident (MCI) EMS Region 3	Interop	D
+58474	e46a	57ED2	Mass Casualty Incident (MCI) EMS Region 3	Interop	D
+58700	e54c	57ED3	Mass Casualty Incident (MCI) EMS Region 3	Interop	D
+59056	e6b0	COEMA57	Emergency Management Agency	Emergency Ops	D
+59600	e8d0	LHD MNTGMRY	ODH Mutual Aid-Montgomery County Health Department	Emergency Ops	D
+
+DEC	HEX	Alpha	Description	Tag	Mode
+58023	e2a7	57RDC FIRE1	County Fire Dispatch 1	Fire Dispatch	D
+58024	e2a8	57RDC FIRE2	County Fire Dispatch 2 (Paging Only)	Fire Dispatch	D
+58075	e2db	Box 21 58075	Box 21 Rescue	Fire-Talk	D
+58077	e2dd	Box 21 58077	Box 21 Rescue	Fire-Tac	D
+58150	e326	57 BFD TRAIN	Brookville Fire Training	Fire-Talk	D
+58151	e327	57 BFD ADM	Brookville Fire Administration	Fire-Talk	D
+58154	e32a	57 BTFD CAR	Butler Township Fire Car-to-Car	Fire-Talk	D
+58159	e32f	57 BTFD	Butler Township Fire Administration	Fire-Talk	D
+58167	e337	57 CLAYTN FD	Clayton Fire	Fire-Talk	D
+58179	e343	57 EFD DISP	Englewood Fire Dispatch	Fire Dispatch	D
+58180	e344	57 EFD2	Englewood Fire 2	Fire-Tac	D
+58181	e345	57 EFD WIDE	Englewood Citywide	Interop	D
+58183	e347	57FARMFD	Farmersville Fire	Fire-Talk	D
+58195	e353	57 GFD ADMIN 1	Germantown Fire - Administration 1	Fire-Talk	D
+58196	e354	57 GFD ADMIN 2	Germantown Fire - Administration 2	Fire-Talk	D
+58205	e35d	57HTFD TRAIN	Harrison Township Fire Training	Fire-Talk	D
+58211	e363	57HHFDDISP	Huber Heights Fire Dispatch	Fire Dispatch	D
+58212	e364	57HHFD TRAIN	Huber Heights Fire Training	Fire-Tac	D
+58213	e365	57 HHFD 	Huber Heights Fire	Fire-Talk	D
+58227	e373	57 JTFD ADM	Jefferson Twp Fire Administration	Fire-Talk	D
+58228	e374	57 JTFD	Jefferson Township Fire	Fire-Talk	D
+58232	e378	57 KFD DSP	Kettering Fire Dispatch	Fire Dispatch	D
+58234	e37a	57 KFD SP EVT	Kettering Fire Special Events	Fire-Talk	D
+58235	e37b	57 KFD PREVENT	Kettering Fire Prevention	Fire-Talk	D
+58236	e37c	57 KFD TRAIN	Kettering Fire Training	Fire-Talk	D
+58257	e391	57 MTFD ADM	Miami Twp Fire Administration	Fire-Talk	D
+58273	e3a1	57 MOR FDSP	Moraine Fire Dispatch	Fire Dispatch	D
+58290	e3b2	57 NLEB FD ADM 1	New Lebanon Fire Administration 1	Fire-Talk	D
+58291	e3b3	57 NLEB FD ADM 2	New Lebanon Fire Administration 2	Fire-Talk	D
+58303	e3bf	57 RFD TRAIN	Riverside Fire - Administartion	Fire-Talk	D
+58311	e3c7	57 RFD ADM	Riverside Fire	Fire-Talk	D
+58322	e3d2	57 TFD TRAIN	Trotwood Fire Training	Fire-Talk	D
+58323	e3d3	TFD TRAIN 2	Trotwood Fire and EMS Training Ch. 2	Fire-Talk	D
+58331	e3db	57 UNION FTAC	Union Fire Tactical	Fire-Tac	D
+58337	e3e1	57 VANFD	Vandalia Fire Dispatch	Fire Dispatch	D
+58338	e3e2	57 VFD ADMIN	Vandalia Fire Administration	Fire-Talk	D
+58339	e3e3	57 VFD TRAIN	Vandalia Fire Training	Fire-Talk	D
+58340	e3e4	57 VFD FIRE PRE	Vandalia Fire Prevention	Fire-Talk	D
+58349	e3ed	57 WCFD	West Carrollton Fire Dispatch	Fire Dispatch	D
+58351	e3ef	57 WCFD CHAT	West Carrollton Fire Chatter	Fire-Talk	D
+58356	e3f4	57 WTFD	Washington Township Fire Dispatch	Fire Dispatch	D
+58358	e3f6	57 WTFD CHAT	Washington Township Fire Chatter	Fire-Talk	D
+58400	e420	57OPS42	Fire Operations 42 (Butler Township)	Fire-Tac	D
+58401	e421	57OPS43	Fire Operations 43 (Butler Township)	Fire-Tac	D
+58402	e422	57OPS44	Fire Operations 44 (Huber Heights)	Fire-Tac	D
+58403	e423	57OPS45	Fire Operations 45 (Huber Heights)	Fire-Tac	D
+58404	e424	57OPS46	Fire Operations 46 (Vandalia)	Fire-Tac	D
+58405	e425	57OPS47	Fire Operations 47 (Vandalia)	Fire-Tac	D
+58406	e426	57OPS48	Fire Operations 48 (Overflow)	Fire-Tac	D
+58407	e427	57OPS49	Fire Operations 49 	Fire-Tac	DE
+58408	e428	57MEDIC4A	Medic 4A (Huber/Butler EMS)	EMS-Tac	D
+58409	e429	57MEDIC4B	Medic 4B (Huber/Butler EMS)	EMS-Tac	D
+58410	e42a	57MEDIC4C	Medic 4C (Huber/Butler EMS)	EMS-Tac	D
+58411	e42b	57OPS62	Fire Operations 62 (Kettering)	Fire-Tac	D
+58412	e42c	57OPS63	Fire Operations 63 (Kettering)	Fire-Tac	D
+58413	e42d	57OPS64	Fire Operations 64	Fire-Tac	D
+58414	e42e	57OPS65	Fire Operations 65	Fire-Tac	D
+58415	e42f	57OPS66	Fire Operations 66	Fire-Tac	D
+58416	e430	57OPS67	Fire Operations 67	Fire-Tac	D
+58417	e431	57OPS68	Fire Operations 68	Fire-Tac	D
+58418	e432	57OPS69	Fire Operations 69	Fire-Tac	DE
+58419	e433	57MEDIC6A	Medic 6A (Kettering)	EMS-Tac	D
+58420	e434	Medic 6B	Medic 6B	EMS-Tac	D
+58421	e435	57MEDIC6C6	Medic 6C (Washington Twp EMS)	EMS-Tac	D
+58422	e436	57OPS72	Fire Operations 72 (Englewood)	Fire-Tac	D
+58423	e437	57OPS73	Fire Operations 73 (Englewood)	Fire-Tac	D
+58424	e438	57OPS74	Fire Operations 74 (Englewood)	Fire-Tac	D
+58425	e439	57OPS75	Fire Operations 75 (Englewood)	Fire-Tac	D
+58426	e43a	57OPS76	Fire Operations 76 (Moraine)	Fire-Tac	D
+58427	e43b	57OPS77	Fire Operations 77 (Moraine)	Fire-Tac	D
+58428	e43c	57OPS78	Fire Operations 78 (West Carrollton)	Fire-Tac	D
+58429	e43d	57OPS79	Fire Operations 79 (West Carrollton)	Fire-Tac	DE
+58430	e43e	57MEDIC7A	Medic 7A (Englewood/Union EMS)	EMS-Tac	D
+58431	e43f	57MEDIC7B	Medic 7B (Moraine EMS)	EMS-Tac	D
+58432	e440	57MEDIC7C	Medic 7C (West CÄ·arrollton EMS)	EMS-Tac	D
+58433	e441	57OPS80	Fire Operations 80	Fire-Tac	DE
+58435	e443	57OPS82	Fire Operations 82	Fire-Tac	D
+58436	e444	57OPS83	Fire Operations 83	Fire-Tac	D
+58437	e445	57OPS84	Fire Operations 84	Fire-Tac	D
+58438	e446	57OPS85	Fire Operations 85 (Washington Township)	Fire-Tac	D
+58439	e447	57OPS86	Fire Operations 86	Fire-Tac	D
+58440	e448	57OPS87	Fire Operations 87	Fire-Tac	D
+58441	e449	57OPS88	Fire Operations 88	Fire-Tac	D
+58442	e44a	57OPS89	Fire Operations 89	Fire-Tac	D
+58443	e44b	57OPS8A	Fire Operations 8A	Fire-Tac	D
+58444	e44c	57OPS8B	Fire Operations 8B	Fire-Tac	D
+58445	e44d	57OPS8C	Fire Operations 8C	Fire-Tac	D
+58446	e44e	57OPS8D	Fire Operations 8D	Fire-Tac	D
+58447	e44f	57OPS90	Fire Operations 90	Fire-Tac	DE
+58449	e451	57OPS92	Fire Operations 92	Fire-Tac	D
+58450	e452	57OPS93	Fire Operations 93	Fire-Tac	D
+58451	e453	57OPS94	Fire Operations 94	Fire-Tac	D
+58452	e454	57OPS95	Fire Operations 95	Fire-Tac	D
+58453	e455	57OPS96	Fire Operations 96	Fire-Tac	D
+58454	e456	57OPS97	Fire Operations 97	Fire-Tac	D
+58455	e457	57OPS98	Fire Operations 98	Fire-Tac	D
+58456	e458	57OPS99	Fire Operations 99	Fire-Tac	D
+58457	e459	57OPS9A	Fire Operations 9A	Fire-Tac	D
+58458	e45a	57OPS9B	Fire Operations 9B	Fire-Tac	D
+58459	e45b	57OPS9C	Fire Operations 9C	Fire-Tac	D
+58460	e45c	57OPS9D	Fire Operations 9D	Fire-Tac	D
+58462	e45e	57CMH	Children's Hospital	Hospital	D
+58463	e45f	57MVH	Miami Valley Hospital	Hospital	D
+58464	e460	57MVHS	Miami Valley Hospital South	Hospital	D
+58466	e462	57MVHN	Miami Valley Hospital North Dayton	Hospital	D
+58467	e463	57GVH	Kettering Health Dayton	Hospital	D
+58468	e464	57KMC	Kettering Medical Center	Hospital	D
+58469	e465	57SMC	Kettering Health Miamisburg	Hospital	D
+58470	e466	57SVH	Kettering Health Washington Township	Hospital	D
+58471	e467	57VAHOSP	Veterans Hospital	Hospital	D
+58523	e49b	57 DFD CHAT	Dayton Fire Chatter	Fire-Talk	D
+58525	e49d	57 DFD PREV	Dayton Fire Prevention	Fire-Talk	D
+58526	e49e	57DFD TRCNTR	Dayton Fire Training Center	Fire-Talk	D
+58528	e4a0	57 DFD ARSON	Dayton Fire Arson Investigation	Fire-Talk	D
+58529	e4a1	57DFD TRCNTR 2	Dayton Fire Training Center Ch 2	Fire-Talk	D
+58535	e4a7	57DOAFIRE	Dayton Airport Fire Dispatch	Fire Dispatch	D
+58536	e4a8	57DAOTRN 1	Dayton Airport Fire Training	Fire-Talk	D
+58538	e4aa	57DAOTRN 2	Dayton Airport Fire Training	Fire-Talk	D
+58701	e54d	57HHFDDSP2	Huber Heights Fire Dispatch 2 [May be unused at this time]	Fire Dispatch	D
+58722	e562	57HHER	Kettering Health Huber ER	Hospital	D
+59542	e896	GDAHIN	Greater Dayton Area Health Information Network 	Hospital	D
+59628	e8ec	HOS-5701	Miami Valley Hospital South (Centerville)	Hospital	D
+59631	e8ef	HOS-5702	Miami Valley Hospital North (Dayton)	Hospital	D
+59634	e8f2	HOS-5703	Kettering Health Dayton	Hospital	D
+59638	e8f6	HOS-5704	Kettering Medical Center (Kettering)	Hospital	D
+59642	e8fa	HOS-5705	Miami Valley Hospital (Dayton)	Hospital	D
+59645	e8fd	HOS-5706	Kettering Health Washington Township  (Dayton)	Hospital	D
+59649	e901	HOS-5707	Kettering Health Miamisburg	Hospital	D
+59658	e90a	HOS-5709	 Kettering Health Huber 	Hospital	D
+59662	e90e	HOS-5710	Miami Valley Hospital North	Hospital	D
+60991	ee3f	57 MVH AUS	Miami Valley Hospital Austin Boulevard	Hospital	D
+
+DEC	HEX	Alpha	Description	Tag	Mode
+58188	e34c	57 5RVRS INV	5 Rivers Investigation	Law Tac	D
+58155	e32b	57 BTPD CC	Butler Township Police Car to Car	Law Tac	D
+58156	e32c	57 BTPD SEC	Butler Township Police Secure	Law Tac	DE
+58160	e330	57 CVPD DISP	Centerville Police Dispatch	Law Dispatch	D
+58161	e331	57 CVPD TAC1	Centerville Police Tac 1	Law Tac	D
+58478	e46e	57 CMH SEC	Children's Hospital - Security  (Dayton)	Hospital	D
+58165	e335	57CLAYPD LOCAL	Clay Township Police Local	Law Talk	D
+58169	e339	57 CLYPD C2C	Clayton Police Car to Car	Law Tac	D
+58168	e338	57 CLYPD TAC	Clayton Police Tac	Law Tac	D
+58051	e2c3	57 SO JAIL	County Jail	Corrections	DE
+58186	e34a	57 RANGER	County Park Ranger	Law Tac	D
+58115	e303	57 PROS-1	County Prosecutor 1	Law Talk	D
+58116	e304	57 PROS-2	County Prosecutor 2	Law Talk	D
+58119	e307	57 STOP	County Secure Transitional Offender Program (S.T.O.P.)	Corrections	D
+58071	e2d7	57 SWAT WIDE	County wide SWAT	Law Tac	D
+58072	e2d8	57 SWAT OPS	County wide SWAT OPS	Law Tac	DE
+58044	e2bc	57 COURT 1	Court Security 1	Law Talk	D
+58045	e2bd	57 COURT 2	Court Security 2	Law Talk	D
+58531	e4a3	57 DOA PD	Dayton Airport Police	Law Dispatch	D
+58532	e4a4	57 DOA RCRD	Dayton Airport Police Records	Law Talk	DE
+58530	e4a2	57 DFD/DPD	Dayton Fire/ Police Common	Interop	D
+58515	e493	57 DPD ACAD	Dayton Police Academy	Law Tac	D
+58501	e485	57 DPD C-C	Dayton Police Car to Car	Law Tac	D
+58504	e488	57 DPD DET	Dayton Police Detective	Law Tac	DE
+58505	e489	57 DPD DET OPS1	Dayton Police Detective Ops 1	Law Tac	DE
+58509	e48d	57 DPD EVTS	Dayton Police Events	Law Tac	D
+58500	e484	57 DPD RCRD	Dayton Police Records	Law Talk	DE
+58511	e48f	57 DPD SWAT	Dayton Police SWAT	Law Tac	DE
+58507	e48b	57 DPD TAC1 E	Dayton Police Tac 1 East	Law Tac	DE
+58502	e486	57 DPD TAC2 W	Dayton Police Tac 2 West	Law Tac	DE
+58510	e48e	57 DPD TRAFF	Dayton Police Traffic Enforcement	Law Tac	D
+58053	e2c5	57 RDC COM	Dispatch to Dispatch	Law Dispatch	D
+58177	e341	57 EPD CAR	Englewood Police - Car-2-Car	Law Tac	D
+58178	e342	57 EPD INV	Englewood Police - Investigations	Law Tac	D
+58173	e33d	57 EPD DISP	Englewood Police Dispatch	Law Dispatch	D
+58176	e340	57 EPD TAC3	Englewood Police Encrypted	Law Tac	DE
+58174	e33e	57 EPD TAC1	Englewood Police Tac 1	Law Tac	D
+58175	e33f	57 EPD TAC2	Englewood Police Tac 2	Law Tac	D
+58199	e357	57 GTPD TAC	German Township Police - Tactical	Law Tac	D
+58198	e356	57 GTWPPD LOCAL	German Township Police local	Law Tac	D
+58197	e355	57 GPD LOCAL	Germantown Police Local	Law Tac	D
+58225	e371	57 HHPD	Huber Heights Police	Law Talk	D
+58219	e36b	57 HHDET1	Huber Heights Police Detective 1	Law Tac	D
+58214	e366	57 HHPD DISP	Huber Heights Police Dispatch	Law Dispatch	D
+58218	e36a	57 HHPD OPS2	Huber Heights Police OPS 2 (mobile units are encrypted}	Law Tac	De
+58215	e367	57 HHPD RCRD	Huber Heights Police Records	Law Tac	D
+58216	e368	57 HHPD TAC1	Huber Heights Police Tac 1	Law Tac	D
+58217	e369	57 HHPD TAC2	Huber Heights Police Tac 2	Law Tac	D
+58184	e348	57 JACKTWPPD	Jackson Township Police	Law Tac	D
+58124	e30c	57 JUVCRT2	Juvenile Court 2	Law Talk	D
+58125	e30d	57 JUVCRT3	Juvenile Court 3	Law Talk	D
+58129	e311	57 JUVCRT4	Juvenile Court 4	Law Talk	D
+58130	e312	57 JUVCRT5	Juvenile Court 5	Law Talk	D
+58126	e30e	57 JDC MAIN	Juvenile Detention Center - Primary	Corrections	D
+58127	e30f	57 JDC RCV	Juvenile Detention Center - Receiving	Corrections	D
+58200	e358	57 KHND PDISP	Kettering Health Dayton - Police Dispatch (formerly Grandview Hospital)	Law Dispatch	D
+58201	e359	57 KHND PTAC1	Kettering Health Dayton - Police Tac 1	Law Tac	D
+58202	e35a	57 KHND PTAC2	Kettering Health Dayton - Police Tac 2	Law Tac	D
+58475	e46b	57 KMC SYCM	Kettering Medical Center - Security	Hospital	D
+58204	e35c	57 KMC PD	Kettering Medical Center Police	Law Dispatch	D
+58242	e382	57 KPD CHSEC	Kettering Police - Courthouse Security	Law Talk	D
+58243	e383	57 KPD INV	Kettering Police - Investigations	Law Tac	D
+58244	e384	57 KPD SECURE	Kettering Police - Secure	Law Tac	DE
+58238	e37e	57 KPD DISP	Kettering Police Dispatch	Law Dispatch	D
+58237	e37d	57 KPD SPEVT2	Kettering Police Special Events	Law Talk	D
+58241	e381	57 KPD SPEVT1	Kettering Police Special Events	Law Talk	D
+58246	e386	57 KPD SWAT	Kettering Police SWAT	Law Tac	De
+58247	e387	57 KPD SWAT 2	Kettering Police SWAT 2	Law Tac	De
+58240	e380	57 KPD TAC	Kettering Police Tactical	Law Tac	De
+58012	e29c	57 RDC CENRL	Law Dispatch Central	Law Dispatch	D
+58014	e29e	57 RDC EAST	Law Dispatch East (Dayton Police)	Law Dispatch	D
+58011	e29b	57 RDC NORTH	Law Dispatch North	Law Dispatch	D
+58013	e29d	57 RDC SOUTH	Law Dispatch South	Law Dispatch	D
+58015	e29f	57 RDC WEST	Law Dispatch West (Dayton Police)	Law Dispatch	D
+58016	e2a0	57 RDC RCRD N	Law Records North	Law Talk	D
+58017	e2a1	57 RDC RCRD S	Law Records South	Law Talk	D
+58018	e2a2	57 RDC TAC 1	Law TAC 1	Law Tac	D
+58019	e2a3	57 RDC TAC 2	Law TAC 2	Law Tac	D
+58020	e2a4	57 RDC TAC 3	Law TAC 3	Law Tac	D
+58021	e2a5	57 RDC TAC 4	Law TAC 4	Law Tac	D
+58022	e2a6	57 RDC TAC 5	Law TAC 5	Law Tac	D
+58034	e2b2	57 RANGE A	MCSO Range A	Law Talk	D
+58253	e38d	57 MTPD INVEST	Miami Township Police - Investigation	Law Tac	DE
+58239	e37f	57 MTPD DISP	Miami Township Police Dispatch	Law Dispatch	D
+58252	e38c	57 MTPD 1	Miami Township Police Local	Law Talk	D
+58262	e396	57 GSHP DISP	Miami Valley Hospital North Police Dispatch	Law Dispatch	D
+58259	e393	57 MVHP DISP	Miami Valley Hospital Police Dispatch	Law Dispatch	D
+58260	e394	57 MVHP TAC 	Miami Valley Hospital Police Tac 1	Law Tac	D
+58261	e395	57 MVHP TAC2	Miami Valley Hospital Police Tac 2	Law Tac	D
+58263	e397	57 MVHPD S	Miami Valley Hospital South Police Dispatch	Law Dispatch	D
+58266	e39a	57 MBURG PTAC 1	Miamisburg :Police TAC 1	Law Tac	D
+58267	e39b	57 MPD TAC 2	Miamisburg Police - TAC 2	Law Tac	D
+58265	e399	57 MBURG PD	Miamisburg Police Local	Law Talk	D
+58278	e3a6	57 MORPD DET	Moraine Police Detectives	Law Tac	D
+58277	e3a5	57 MORPD DISP	Moraine Police Dispatch	Law Dispatch	D
+58281	e3a9	57 MORPD OPS	Moraine Police Ops	Law Tac	D
+58282	e3aa	57 MORPD TAC 	Moraine Police Tac 1	Law Tac	D
+58283	e3ab	57 MORPD TAC 2	Moraine Police Tactical 2	Law Tac	De
+58293	e3b5	57 OAK PS	Oakwood Public Safety	Multi-Dispatch	D
+58297	e3b9	57 OAKPS MEET	Oakwood Public Safety - Meet	Multi-Dispatch	D
+58294	e3b6	57 OAKPS TAC 	Oakwood Public Safety Tac 1	Multi-Tac	D
+58187	e34b	57 RNGR CC	Park Ranger Car to Car	Law Tac	D
+58307	e3c3	57 RPD ENC	Riverside Police Encrypted	Law Tac	D
+58308	e3c4	57 RPD 1	Riverside Police Local 1	Law Talk	D
+58306	e3c2	57 RPD REC	Riverside Police records	Law Talk	D
+58033	e2b1	57 SO CC	Sheriff Car to Car	Law Tac	D
+58031	e2af	57SODET	Sheriff Detectives	Law Tac	D
+58035	e2b3	57 SO RANGE B	Sheriff Range TF B	Law Tac	DE
+58036	e2b4	57 SWAT TRAIN	Sheriff SWAT Training	Law Tac	D
+58037	e2b5	57SOSWAT	Sheriff SWAT Units	Law Tac	DE
+58038	e2b6	57 SWAT CMD	SWAT Command	Law Tac	De
+58264	e398	57 TCSU	Tactical Crime Suppression Unit	Law Tac	D
+58325	e3d5	TPD INV	Trotwood Police - Investigations	Law Tac	De
+58324	e3d4	57 TPD 1	Trotwood Police Local	Law Talk	D
+58330	e3da	57 UPD	Union Police Local	Law Talk	D
+58342	e3e6	57 VPD B	Vandalia Police - (B) Records	Law Talk	D
+58341	e3e5	57 VPD	Vandalia Police Dispatch	Law Dispatch	D
+58343	e3e7	57 VPD TAC 1	Vandalia Police Tac 1	Law Tac	D
+58344	e3e8	57 VPD TAC 2	Vandalia Police Tac 2	Law Tac	De
+58347	e3eb	57 VA PD	Veterans Hospital Police	Law Dispatch	D
+58348	e3ec	57 VA TAC 1	Veterans Hospital Police Tac 1	Law Tac	D
+58352	e3f0	57 WCPD DSP	West Carrollton Police Dispatch [Currently Not In Use]	Law Dispatch	D
+58355	e3f3	57 WCPD TAC3	West Carrollton Police Tac 3	Law Tac	DE
+58353	e3f1	57 WCPD TAC1	West Carrollton Police Tactical	Law Tac	D
+58354	e3f2	57 WCPD TAC2 	West Carrollton Police Tactical 2	Law Tac	D

@@ -1,0 +1,2 @@
+# SDRTrunk event log folder. Edit this path for your Linux installation.
+log_dir = ~/SDRTrunk/event_logs

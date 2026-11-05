@@ -269,6 +269,7 @@ class LogMonitor:
                     "alpha": activity.get("alpha") or alias.get("alpha", ""),
                     "description": activity.get("description") or alias.get("description", ""),
                     "tag": activity.get("tag") or alias.get("tag", ""),
+                    "known": bool(alias.get("alpha") or alias.get("description")),
                     "last_seen": activity.get("last_seen", "—"),
                     "last_epoch": last_epoch,
                     "count": activity.get("count", 0),
@@ -328,7 +329,9 @@ class ConsoleHandler(BaseHTTPRequestHandler):
             self._send(200, (ROOT / "static" / "app.js").read_bytes(), "application/javascript; charset=utf-8")
         elif route == "/api/status":
             MONITOR.scan()
-            body = json.dumps(MONITOR.snapshot(), ensure_ascii=False).encode("utf-8")
+            status = MONITOR.snapshot()
+            status["grid_host"] = grid_host_for_request(self.headers.get("Host", ""))
+            body = json.dumps(status, ensure_ascii=False).encode("utf-8")
             self._send(200, body, "application/json; charset=utf-8")
         elif route == "/health":
             self._send(200, b"ok", "text/plain; charset=utf-8")
@@ -373,7 +376,32 @@ def local_addresses() -> list[str]:
                 addresses.add(ip)
     except OSError:
         pass
+    # UDP connect selects the address used for the default route without sending data.
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as route_probe:
+            route_probe.connect(("192.0.2.1", 80))
+            ip = route_probe.getsockname()[0]
+            if not ip.startswith("127."):
+                addresses.add(ip)
+    except OSError:
+        pass
     return sorted(addresses)
+
+
+def grid_host_for_request(host_header: str) -> str:
+    requested_host = urlparse(f"//{host_header}").hostname or ""
+    if requested_host and requested_host not in {"localhost", "0.0.0.0", "::1"} and not requested_host.startswith("127."):
+        return requested_host
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as route_probe:
+            route_probe.connect(("192.0.2.1", 80))
+            ip = route_probe.getsockname()[0]
+            if not ip.startswith("127."):
+                return ip
+    except OSError:
+        pass
+    addresses = local_addresses()
+    return addresses[0] if addresses else "127.0.0.1"
 
 
 def main() -> None:
